@@ -30,13 +30,13 @@ class Main {
     return result;
   }
 
-  private static int greaterOfTwo(int result, int sum) {
-    if (result > sum) {
-      return result;
-    } else {
-      return sum;
-    }
-  }
+  // private static int greaterOfTwo(int result, int sum) {
+  //   if (result > sum) {
+  //     return result;
+  //   } else {
+  //     return sum;
+  //   }
+  // }
 
   public static void main(String[] args) {
     int result = Main.maximumSumOfAnyContiguousSubArraysOfK(3, new int[] { 2, 1, 5, 1, 3, 2 });
