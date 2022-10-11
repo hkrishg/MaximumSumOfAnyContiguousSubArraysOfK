@@ -21,8 +21,8 @@ class Main {
     for (int end = 0; end < arr.length; end++) {
       sum += arr[end];
       if (end >= k - 1) {
-        result = greaterOfTwo(result, sum);
-        // result = Math.max(result, sum);
+        //result = greaterOfTwo(result, sum);
+        result = Math.max(result, sum);
         sum -= arr[start];
         start++;
       }
